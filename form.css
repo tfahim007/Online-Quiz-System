@@ -1,0 +1,104 @@
+body{
+        width: 100%;
+        background: url(wall1.jpg) ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+
+.tableform
+{
+	width:500px;
+	height: 400px;
+	margin-right:100px;
+	margin-top:110px;
+	background-color: rgba(0,0,0,0.3);
+	float: right;
+}
+
+.tableformlong
+{
+	width:500px;
+	height: 550px;
+	margin-right:100px;
+	margin-top:50px;
+	background-color: rgba(0,0,0,0.3);
+	float: right;
+}
+/* input */
+input {
+  width: 100%;
+  padding: 15px 50px;
+  margin: 8px 55px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*button*/
+.btn {
+	float:right;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    letter-spacing: 0.015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+         -o-transition: all 0.4s;
+            transition: all 0.4s;
+  }
+  .btn:hover {
+    color: black;
+    border-color: #fff;
+    background-color: grey;
+  }
+
+/* hyperlink */
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* intro name */
+
+.introname
+{	float: left;
+	font-size:40px;
+	margin-left: 120px;
+	margin-top:200px;
+	color:white;
+	
+}
+.introname h2:after
+{
+	content: '';
+	height:;
+    width: 150px;
+    display: block;
+    background: #ffee58;
+    height: 6px;
+    margin: 30px auto;
+    line-height: 1.1;
+}

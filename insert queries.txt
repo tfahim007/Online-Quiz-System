@@ -1,0 +1,47 @@
+INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `date`) VALUES (NULL, 'Web Technology', '1', '1', '3', 'current_timestamp()');
+
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('3', NULL, 'HTML stands for?', '4', '1');
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('3', NULL, 'What does br tag do?', '4', '2');
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('3', NULL, 'Which one is server side language?', '4', '3');
+
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('1', 'Hyper Text Markup Language', '1'),
+							   ('1', 'Hello There Marsi Labda', '2'), 
+							   ('1', 'Hyper Tabular Markup Language', '3'), 
+							   ('1', 'None of These', '4');
+
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('2', 'tab', '1'),
+							   ('2', 'line break', '2'), 
+							   ('2', 'anchor', '3'), 
+							   ('2', 'form', '4');
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('3', 'JS', '1'),
+							   ('3', 'HTML', '2'), 
+							   ('3', 'CSS', '3'), 
+							   ('3', 'PHP', '4');
+
+
+INSERT INTO `quiz` (`eid`, `title`, `sahi`, `wrong`, `total`, `date`) VALUES (NULL, 'SRE', '1', '1', '3', 'current_timestamp()');
+
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('4', NULL, 'SRE Stands For?', '4', '1');
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('4', NULL, 'Which of these testing is black box testing?', '4', '2');
+INSERT INTO `questions` (`eid`, `qid`, `qns`, `choice`, `sn`) VALUES ('4', NULL, 'What does IP mean', '4', '3');
+
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('4', 'Software Registration Engineering', '1'),
+							   ('4', 'Hello There Marsi Labda', '2'), 
+							   ('4', 'Hyper Tabular Markup Language', '3'), 
+							   ('4', 'Software Requirements and Engineering', '4');
+
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('5', 'unit', '1'),
+							   ('5', 'line break', '2'), 
+							   ('5', 'anchor', '3'), 
+							   ('5', 'form', '4');
+
+INSERT INTO `options` (`qid`, `option`, `optionid`) VALUES ('6', 'JS', '1'),
+							   ('6', 'Internet Protocol', '2'), 
+							   ('6', 'CSS', '3'), 
+							   ('6', 'PHP', '4');
+
